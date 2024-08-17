@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+   <div class="display">
+<div class="calculator">
+    <form action="">
+        <div>
+            <input type="text" name="screen" class="screeen">
+        </div>
+        <div>
+            <input type="button" value="AC" name="AC" class="inac"  onclick="screen.value=''">
+            <input type="button" value="dC" name="dc" class="indc" onclick="screen.value = screen.value.slice(0,-1)">
+            <input type="button" value="." name="dot" class="in" onclick="screen.value += '.'">
+            <input type="button" value="/" name="div" class="in" onclick="screen.value += '/'">
+        </div>
+        <div>
+            <input type="button" value="7" name="sev" class="in" onclick="screen.value += '7'">
+            <input type="button" value="8" name="eight" class="in" onclick="screen.value += '8'" >
+            <input type="button" value="9" name="nine" class="in" onclick="screen.value += '9'">
+            <input type="button" value="*" name="mul" class="in" onclick="screen.value += '*'">
+        </div>
+        <div>
+            <input type="button" value="4" name="four" class="in" onclick="screen.value += '4'">
+            <input type="button" value="5" name="five" class="in" onclick="screen.value += '5'">
+            <input type="button" value="6" name="six" class="in" onclick="screen.value += '6'">
+            <input type="button" value="+" name="plus" class="in" onclick="screen.value += '+'">
+        </div>
+        <div>
+            <input type="button" value="1" name="one" class="in" onclick="screen.value += '1'">
+            <input type="button" value="2" name="two" class="in" onclick="screen.value += '2'">
+            <input type="button" value="3" name="three" class="in" onclick="screen.value += '3'">
+            <input type="button" value="-" name="min" class="in" onclick="screen.value += '-'">
+        </div>
+        <div>
+            <input type="button" value="00" name="zero2" class="in" onclick="screen.value += '00'">
+            <input type="button" value="0" name="zero" class="in" onclick="screen.value += '0'">
+            <input type="button" value="=" name="equal" class="in2" onclick="screen.value = eval(screen.value)">
+            
+        </div>
+
+    </form>
+
+</div>   </div>
+</body>
+</html>
