@@ -9,7 +9,7 @@
 }
 .calculator{
     display: flex;
-    background-color: aquamarine;
+    background-color: rgb(104, 163, 208);
     justify-content: center;
     align-items: center; 
     translate: 550px 50%;
